@@ -1,6 +1,6 @@
-module github.com/andreykaipov/goobs
+module github.com/onthegit/goobs
 
-replace github.com/andreykaipov/goobs -> github.com/onthegit/goobs
+replace github.com/andreykaipov/goobs => github.com/onthegit/goobs master
 
 go 1.20
 
