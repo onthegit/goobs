@@ -5,6 +5,7 @@ replace github.com/andreykaipov/goobs => github.com/onthegit/goobs v1.0.0
 go 1.20
 
 require (
+	github.com/andreykaipov/goobs v0.0.0-00010101000000-000000000000
 	github.com/buger/jsonparser v1.1.1
 	github.com/gorilla/websocket v1.5.1
 	github.com/hashicorp/logutils v1.0.0
