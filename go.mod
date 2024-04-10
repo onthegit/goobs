@@ -1,6 +1,6 @@
 module github.com/onthegit/goobs
 
-replace github.com/andreykaipov/goobs => github.com/onthegit/goobs v1.0.0
+replace github.com/andreykaipov/goobs => github.com/onthegit/goobs v1.0.1
 
 go 1.20
 
