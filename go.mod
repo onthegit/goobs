@@ -1,5 +1,7 @@
 module github.com/andreykaipov/goobs
 
+replace github.com/andreykaipov/goobs -> github.com/onthegit/goobs
+
 go 1.20
 
 require (
