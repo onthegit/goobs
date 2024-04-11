@@ -13,14 +13,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andreykaipov/goobs/api"
-	"github.com/andreykaipov/goobs/api/closecodes"
-	"github.com/andreykaipov/goobs/api/events"
-	"github.com/andreykaipov/goobs/api/events/subscriptions"
-	"github.com/andreykaipov/goobs/api/opcodes"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/logutils"
 	"github.com/mmcloughlin/profile"
+	"github.com/onthegit/goobs/api"
+	"github.com/onthegit/goobs/api/closecodes"
+	"github.com/onthegit/goobs/api/events"
+	"github.com/onthegit/goobs/api/events/subscriptions"
+	"github.com/onthegit/goobs/api/opcodes"
 )
 
 // Client represents a client to an OBS websockets server.

@@ -1,9 +1,9 @@
-module github.com/andreykaipov/goobs/internal/sample
+module github.com/onthegit/goobs/internal/sample
 
 go 1.20
 
 require (
-	github.com/andreykaipov/goobs v0.0.0
+	github.com/onthegit/goobs v0.0.0
 	github.com/stretchr/testify v1.9.0
 )
 
@@ -19,4 +19,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/andreykaipov/goobs => ../../
+replace github.com/onthegit/goobs => ../../

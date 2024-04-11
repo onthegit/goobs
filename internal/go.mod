@@ -1,4 +1,4 @@
-module github.com/andreykaipov/goobs/internal
+module github.com/onthegit/goobs/internal
 
 go 1.18
 

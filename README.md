@@ -8,11 +8,11 @@
 [protocol-img]: https://img.shields.io/badge/obs--websocket-v5.4.2-blue?logo=obs-studio&style=flat-square
 [protocol-url]: https://github.com/obsproject/obs-websocket/blob/5.4.2/docs/generated/protocol.md
 [doc-img]: https://img.shields.io/badge/pkg.go.dev-reference-blue?logo=go&logoColor=white&style=flat-square
-[doc-url]: https://pkg.go.dev/github.com/andreykaipov/goobs
+[doc-url]: https://pkg.go.dev/github.com/onthegit/goobs
 [build-img]: https://img.shields.io/github/actions/workflow/status/andreykaipov/goobs/ci.yml?logo=github&style=flat-square&branch=main
-[build-url]: https://github.com/andreykaipov/goobs/actions/workflows/ci.yml
-[goreport-img]: https://goreportcard.com/badge/github.com/andreykaipov/goobs?logo=go&logoColor=white&style=flat-square
-[goreport-url]: https://goreportcard.com/report/github.com/andreykaipov/goobs
+[build-url]: https://github.com/onthegit/goobs/actions/workflows/ci.yml
+[goreport-img]: https://goreportcard.com/badge/github.com/onthegit/goobs?logo=go&logoColor=white&style=flat-square
+[goreport-url]: https://goreportcard.com/report/github.com/onthegit/goobs
 
 Interact with OBS Studio from Go!
 
@@ -22,7 +22,7 @@ To use this library in your project, add it as a module after you've initialized
 
 ```console
 ❯ go mod init github.com/beautifulperson/my-cool-obs-thing
-❯ go get github.com/andreykaipov/goobs
+❯ go get github.com/onthegit/goobs
 ```
 
 ## usage
@@ -38,7 +38,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/andreykaipov/goobs"
+	"github.com/onthegit/goobs"
 )
 
 func main() {

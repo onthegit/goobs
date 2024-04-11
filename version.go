@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-const lib = "github.com/andreykaipov/goobs"
+const lib = "github.com/onthegit/goobs"
 
 var ProtocolVersion = "5.4.2"
 

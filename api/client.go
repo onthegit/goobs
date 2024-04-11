@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/andreykaipov/goobs/api/opcodes"
-	"github.com/andreykaipov/goobs/api/requests"
 	uuid "github.com/nu7hatch/gouuid"
+	"github.com/onthegit/goobs/api/opcodes"
+	"github.com/onthegit/goobs/api/requests"
 )
 
 type Params interface{ GetRequestName() string }

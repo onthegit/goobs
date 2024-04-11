@@ -3,19 +3,19 @@
 package goobs
 
 import (
-	config "github.com/andreykaipov/goobs/api/requests/config"
-	filters "github.com/andreykaipov/goobs/api/requests/filters"
-	general "github.com/andreykaipov/goobs/api/requests/general"
-	inputs "github.com/andreykaipov/goobs/api/requests/inputs"
-	mediainputs "github.com/andreykaipov/goobs/api/requests/mediainputs"
-	outputs "github.com/andreykaipov/goobs/api/requests/outputs"
-	record "github.com/andreykaipov/goobs/api/requests/record"
-	sceneitems "github.com/andreykaipov/goobs/api/requests/sceneitems"
-	scenes "github.com/andreykaipov/goobs/api/requests/scenes"
-	sources "github.com/andreykaipov/goobs/api/requests/sources"
-	stream "github.com/andreykaipov/goobs/api/requests/stream"
-	transitions "github.com/andreykaipov/goobs/api/requests/transitions"
-	ui "github.com/andreykaipov/goobs/api/requests/ui"
+	config "github.com/onthegit/goobs/api/requests/config"
+	filters "github.com/onthegit/goobs/api/requests/filters"
+	general "github.com/onthegit/goobs/api/requests/general"
+	inputs "github.com/onthegit/goobs/api/requests/inputs"
+	mediainputs "github.com/onthegit/goobs/api/requests/mediainputs"
+	outputs "github.com/onthegit/goobs/api/requests/outputs"
+	record "github.com/onthegit/goobs/api/requests/record"
+	sceneitems "github.com/onthegit/goobs/api/requests/sceneitems"
+	scenes "github.com/onthegit/goobs/api/requests/scenes"
+	sources "github.com/onthegit/goobs/api/requests/sources"
+	stream "github.com/onthegit/goobs/api/requests/stream"
+	transitions "github.com/onthegit/goobs/api/requests/transitions"
+	ui "github.com/onthegit/goobs/api/requests/ui"
 )
 
 type Categories struct {

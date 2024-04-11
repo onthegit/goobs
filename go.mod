@@ -1,11 +1,8 @@
 module github.com/onthegit/goobs
 
-replace github.com/andreykaipov/goobs => github.com/onthegit/goobs v1.0.2
-
 go 1.20
 
 require (
-	github.com/andreykaipov/goobs v1.2.3
 	github.com/buger/jsonparser v1.1.1
 	github.com/gorilla/websocket v1.5.1
 	github.com/hashicorp/logutils v1.0.0

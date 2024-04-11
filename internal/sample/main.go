@@ -1,5 +1,5 @@
 package main
 
-import _ "github.com/andreykaipov/goobs"
+import _ "github.com/onthegit/goobs"
 
 func main() {}

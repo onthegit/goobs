@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	goobs "github.com/andreykaipov/goobs"
 	"github.com/gorilla/websocket"
+	goobs "github.com/onthegit/goobs"
 	"github.com/stretchr/testify/assert"
 )
 

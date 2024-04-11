@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/andreykaipov/goobs"
-	"github.com/andreykaipov/goobs/api/requests/general"
+	"github.com/onthegit/goobs"
+	"github.com/onthegit/goobs/api/requests/general"
 )
 
 func main() {

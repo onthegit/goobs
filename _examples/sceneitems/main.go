@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/andreykaipov/goobs"
-	"github.com/andreykaipov/goobs/api/requests/inputs"
-	"github.com/andreykaipov/goobs/api/requests/sceneitems"
+	"github.com/onthegit/goobs"
+	"github.com/onthegit/goobs/api/requests/inputs"
+	"github.com/onthegit/goobs/api/requests/sceneitems"
 )
 
 var client *goobs.Client

@@ -4,11 +4,11 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/andreykaipov/goobs"
+	"github.com/onthegit/goobs"
 	"github.com/stretchr/testify/assert"
 )
 
-const lib = "github.com/andreykaipov/goobs"
+const lib = "github.com/onthegit/goobs"
 
 func TestVersion(t *testing.T) {
 	assert.NotEmpty(t, goobs.LibraryVersion)

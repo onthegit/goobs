@@ -2,7 +2,7 @@
 
 package record
 
-import api "github.com/andreykaipov/goobs/api"
+import api "github.com/onthegit/goobs/api"
 
 type _response = api.ResponseCommon
 

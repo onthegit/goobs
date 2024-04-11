@@ -18,7 +18,7 @@ If you don't see settings for the server under the _Tools_ menu like in the foll
 
 For older distributions, it's still possible to run the Websocket server as a plugin, but chances are the server's protocol will be v4 and unusable with this library.
 Please see [obsproject/obs-websocket](https://github.com/obsproject/obs-websocket) for more details on that.
-The last goobs release to support v4 was [v0.8.1](https://github.com/andreykaipov/goobs/releases/tag/v0.8.1), so the following documentation doesn't apply and you'll be in for a rough ride!
+The last goobs release to support v4 was [v0.8.1](https://github.com/onthegit/goobs/releases/tag/v0.8.1), so the following documentation doesn't apply and you'll be in for a rough ride!
 
 ## connecting
 
@@ -35,7 +35,7 @@ And connect!
 Note for Windows users: if your development environment is within WSL, but OBS is running on the Windows host, you'll have to point the address to the Windows host instead, i.e. `ip route show default | awk '{print $3}'`.
 
 The `goobs.WithPassword(...)` is an option we can pass to `goobs.New(...)` to configure the client.
-Check the [Go docs](https://pkg.go.dev/github.com/andreykaipov/goobs#Option) for all the other possible options.
+Check the [Go docs](https://pkg.go.dev/github.com/onthegit/goobs#Option) for all the other possible options.
 
 ## making requests
 
